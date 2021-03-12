@@ -91,8 +91,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url(img/texture-paper.png);
-    background-size: 280px 280px;
+        background: url(img/texture-paper.png);
+        background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -361,6 +361,15 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.img-responsive{
+    width: 100%;
+    height: 60%;
+    
+}
+.fond-titre{
+    background-color: #eb804f;
+    color: white!important;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -575,7 +584,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    max-height: auto;
     margin: 0 auto;
     max-width: 100%;
 }
@@ -634,7 +643,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 25%;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -727,11 +736,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: black!important;
 }
 .citation{
     color:#000000;
@@ -751,9 +760,9 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    font-weight: 100px;
+    font-weight: 628px;
+    width: 100%;
 }
-
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -782,23 +791,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #eb804f;
 }
 
 .tc-white {
-    color:#F3976C!important;
-    background-color: white;
+    color:white!important;
+    background-color: #eb804f;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #eb804f;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #eb804f!important;
     color: #FFFFFF!important;
 }
 
@@ -811,16 +820,16 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #eb804f!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #eb804f!important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -832,11 +841,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.png");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {

@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color:#000000;
 }
 
 a,
@@ -91,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-        background: url(img/texture-paper.png);
+
         background-size: 280px 280px;
 }
 
@@ -99,13 +100,8 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: white;
-}
 
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
-}
+
 
 .d-bloc .icon-round,
 .d-bloc .icon-square,
@@ -119,39 +115,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
 
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
-}
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -159,13 +123,10 @@ a:hover {
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
-}
+
 
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
@@ -179,9 +140,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
-}
+
 
 .d-bloc .panel .a-btn:hover {
     color: rgba(0, 0, 0, 1);
@@ -193,10 +152,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -216,41 +171,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
 
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
-}
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -368,9 +289,8 @@ a:hover {
 }
 .fond-titre{
     background-color: #eb804f;
-    color: white!important;
-}
 
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -485,7 +405,10 @@ button {
 }
 .info{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-right: 15%;
 }
 .icon-md {
     font-size: 30px!important;
@@ -591,7 +514,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -600,7 +523,7 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
-    color: #FFF;
+ 
     font-size: 30px;
     position: absolute;
     top: 20px;
@@ -617,13 +540,13 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+
 }
 
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
+  
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
@@ -705,7 +628,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+ 
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -714,7 +637,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
 }
 
 h2 {
@@ -754,9 +677,7 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
+
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -795,7 +716,7 @@ h4 {
 }
 
 .tc-white {
-    color:white!important;
+    
     background-color: #eb804f;
     font-weight: bold;
     margin-bottom: 30px;
@@ -803,21 +724,17 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #eb804f;
-    color: #FFFFFF!important;
+    
 }
 
 .btn-atomic-tangerine:hover {
     background: #eb804f!important;
-    color: #FFFFFF!important;
+    
 }
 
-.ltc-white {
-    color: #FFFFFF!important;
-}
 
-.ltc-white:hover {
-    color: #cccccc!important;
-}
+
+
 
 .ltc-atomic-tangerine {
     color: #eb804f!important;

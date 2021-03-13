@@ -289,6 +289,7 @@ a:hover {
 }
 .fond-titre{
     background-color: #eb804f;
+    font-weight: bold;
 
 }
 @media (min-width: 768px) {
@@ -546,7 +547,6 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-  
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
@@ -628,7 +628,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
- 
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
